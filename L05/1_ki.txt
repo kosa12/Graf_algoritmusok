@@ -1,0 +1,2 @@
+Maximal flow: 12
+Minimal cut: 2 5; 3 6; 4 5
