@@ -16,12 +16,12 @@ struct City
     double y;
 };
 
-double distance(const City &a, const City &b)
+double distance(City &a, City &b)
 {
     return sqrt(pow(a.x - b.x, 2) + pow(a.y - b.y, 2));
 }
 
-vector<City> read_cities_from_file(const string &filename)
+vector<City> read_cities_from_file(string &filename)
 {
     vector<City> cities;
     ifstream file(filename);
